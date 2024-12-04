@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.fixed{
+  font-size: 15px;
+  height: 70px;
+}
+.navbar-brand {
+  color: black;
+  font-family: "lobter", cursive;
+}
+.container a{
+  font-size: 17px;
+}
+.container .logo{
+  font-size: 30px;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family: "rubik", sans-serif;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 60px;
+  outline: none;
+  font-family: "rubik", sans-serif;
+  margin-right: -35px;
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(248, 26, 92);
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+}
+.main {
+  background: url(https://img.freepik.com/premium-photo/fresh-fruit-still-life-yellow-background_1110022-51681.jpg?ga=GA1.1.1328495314.1725001081)
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+}
+.main h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "robot";
+}
+.btn1 {
+  height: 45px;
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: rgb(248, 26, 92);
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(153, 145, 96);
+  transition: 0, 5s;
+}
+.new img {
+  width: 180px;
+  height: 150px;
+}
+.product h1 {
+  font-weight: 700;
+}
+.row img {
+  width: 250px;
+  height: 200px;
+}
+.card:hover {
+  -webkit-box-shadow: 0px 0px 27px -4px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 0px 27px -4px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 0px 27px -4px rgba(0, 0, 0, 0.46);
+  transition: 0.5s;
+}
+.about img{
+    width: 390px;
+    height: 250px;
+}
+.more{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(https://img.freepik.com/free-photo/happy-woman-standing-with-vegetable-salad-bowl_23-2148042317.jpg?ga=GA1.1.1328495314.1725001081)no-repeat;
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+.more h1{
+    font-family: "lobter", cursive;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.btn2{
+    height: 48px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.fa-brands{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right:5px ;
+}
